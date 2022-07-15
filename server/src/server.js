@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost:27017/promauto', { useNewUrlParser: true }
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
-app.use('/', express.static('../client/dist'));
+app.use('/', express.static('../../client/dist'));
 
 app.post('/api/order', (req, res) => {
     orderModel.create({ name: req.body.name, phone: req.body.phone, placement: req.body.placement, square: req.body.square, height: req.body.height }, (err, order) => {
