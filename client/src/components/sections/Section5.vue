@@ -8,6 +8,31 @@
         </div>
       </div>
       <div class="flex flex-wrap">
+        <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
+          <div class="h-full flex flex-col items-center text-center">
+            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
+              src="/img/trusted/kyivstar.png">
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
+          <div class="h-full flex flex-col items-center text-center">
+            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
+              src="/img/trusted/nafta.png">
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
+          <div class="h-full flex flex-col items-center text-center">
+            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
+              src="/img/trusted/europa.png">
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
+          <div class="h-full flex flex-col items-center text-center">
+            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
+              src="/img/trusted/vagonzavod.png">
+          </div>
+        </div>
+
         <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
           <div class="h-full flex flex-col items-center text-center">
             <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
@@ -20,29 +45,10 @@
               src="/img/trusted/roshen.png">
           </div>
         </div>
-        <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
+        <div class="p-4 lg:w-1/3 md:w-full w-full">
           <div class="h-full flex flex-col items-center text-center">
             <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
               src="/img/trusted/ferexpo.png">
-          </div>
-        </div>
-        <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex flex-col items-center text-center">
-            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
-              src="/img/trusted/kyivstar.png">
-          </div>
-        </div>
-
-        <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex flex-col items-center text-center">
-            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
-              src="/img/trusted/nafta.png">
-          </div>
-        </div>
-        <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex flex-col items-center text-center">
-            <img draggable="false" alt="team" class="flex-shrink-0 rounded-lg w-full h-24 object-contain object-center mb-4"
-              src="/img/trusted/europa.png">
           </div>
         </div>
       </div>

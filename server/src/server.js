@@ -1,6 +1,8 @@
-const express = require('express')
-const mongoose = require('mongoose')
-const orderModel = require('./models/order.model')
+import express from 'express';
+import mongoose from 'mongoose';
+import orderModel from './models/order.model.js';
+import sendMail from './mailer.js';
+
 const app = express()
 const port = 3000
 
@@ -13,7 +15,6 @@ app.use(express.urlencoded({extended: false}));
 app.use('/', express.static('../client/dist'));
 
 app.post('/api/order', (req, res) => {
-    console.log(req)
     orderModel.create({ name: req.body.name, phone: req.body.phone, placement: req.body.placement, square: req.body.square, height: req.body.height }, (err, order) => {
         if (err) {
             console.log(err)
@@ -23,6 +24,12 @@ app.post('/api/order', (req, res) => {
             res.status(200).send(order)
         }
     })
+    sendMail({
+        from: 'promaserver@gmail.com',
+        to: 'promaopt@gmail.com',
+        subject: `Нове замовлення від "${req.body.name}" (${req.body.phone})`,
+        text: `Ім'я клієнта: ${req.body.name}\nНомер телефону: ${req.body.phone}\nТип приміщення: ${req.body.placement}\nПлоща: ${req.body.square}m²\nВисота: ${req.body.height}m`
+    });
 })
 
 app.listen(port, () => {
