@@ -10,6 +10,7 @@
 				<a class="mr-5 hover:text-gray-900" href="#Партнери">Партнери</a>
 				<a class="mr-5 hover:text-gray-900" href="#Статистика">Статистика</a>
 				<a class="mr-5 hover:text-gray-900" href="#Зв'язатись">Зв'язатись</a>
+				<a class="mr-5 hover:text-gray-900" href="https://docs.google.com/forms/d/1yW0Sfg3-UNW9tZF4RiC1n_XU-BtwBytc62-viCUu4KU/edit#responses">Вакансії</a>
 			</nav>
 		</div>
 	</header>
